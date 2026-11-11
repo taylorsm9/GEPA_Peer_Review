@@ -1,0 +1,18 @@
+# working notes and planning documents
+notes/
+
+# secrets and local environment
+.env
+.venv/
+.idea/
+.claude/
+__pycache__/
+
+# data (arXiv papers carry per-paper licenses and are not redistributed), runs and logs
+data/
+runs/
+logs/
+mlruns/
+
+# AI-Scientist is referenced by commit (SakanaAI/AI-Scientist @ 1de1dbc1), not vendored
+third_party/
